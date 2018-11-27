@@ -7,7 +7,8 @@ Link:(https://github.com/erwin-d-austria/python_snippet)
 
 A collection is similar to a basket that you can add and remove items from. 
 
-## OrderedDict
+## DefaultDict
+if a key is not found in the dictionary, then instead of a KeyError being thrown, a new entry is created. 
 ``` python
 from collections import defaultdict
 	
@@ -20,6 +21,7 @@ for fruit in fruits:
 print(fruitCounter)
 ```
 ## Counter
+if you want to count list value inside list.
 ``` python
 from collections import Counter
 
@@ -46,6 +48,7 @@ print(c1 & c2)
 ```
 
 ## OrderDict
+
 ``` python
 from collections import OrderedDict
 
